@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {
+            "translate": "advancements.skyblock.deflect_arrow.title"
+        },
+        "description": {
+            "translate": "advancements.skyblock.deflect_arrow.description"
+        }
+    },
+    "parent": "skyblock:skyblock/leather_armor",
+    "criteria": {
+        "deflected_projectile": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "blocked": true
+                }
+            }
+        }
+    }
+}

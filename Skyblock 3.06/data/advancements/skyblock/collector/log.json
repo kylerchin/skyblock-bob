@@ -1,0 +1,89 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:log",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.collector.log.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.collector.log.description"
+		}
+	},
+	"parent": "skyblock:collector/cobblestone",
+	"criteria": {
+		"log0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:log",
+						"data": 0,
+						"count": 64
+					}
+				]
+			}
+		},
+		"log1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:log",
+						"data": 1,
+						"count": 64
+					}
+				]
+			}
+		},
+		"log2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:log",
+						"data": 2,
+						"count": 64
+					}
+				]
+			}
+		},
+		"log3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:log",
+						"data": 3,
+						"count": 64
+					}
+				]
+			}
+		},
+		"log4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:log2",
+						"data": 0,
+						"count": 64
+					}
+				]
+			}
+		},
+		"log5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:log2",
+						"data": 1,
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

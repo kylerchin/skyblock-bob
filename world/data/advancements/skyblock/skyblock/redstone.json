@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.redstone.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.redstone.description"
+		}
+	},
+	"parent": "skyblock:skyblock/monster",
+	"criteria": {
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:redstone"
+					}
+				]
+			}
+		}
+	}
+}

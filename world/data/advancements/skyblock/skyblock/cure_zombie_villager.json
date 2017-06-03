@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"title": {
+			"translate": "advancements.skyblock.cure_zombie_villager.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.cure_zombie_villager.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:skyblock/nether",
+	"criteria": {
+		"cured_zombie": {
+			"trigger": "minecraft:cured_zombie_villager"
+		}
+	}
+}

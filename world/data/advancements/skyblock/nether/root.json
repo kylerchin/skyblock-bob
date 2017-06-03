@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_nether_brick",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.nether.root.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.nether.root.description"
+		},
+		"background": "minecraft:textures/blocks/nether_wart_block.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"nether": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "the_nether"
+			}
+		}
+	}
+}

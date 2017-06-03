@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:slime_ball",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.slime_ball.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.slime_ball.description"
+		}
+	},
+	"parent": "skyblock:skyblock/redstone",
+	"criteria": {
+		"slime_ball": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:slime_ball"
+					}
+				]
+			}
+		}
+	}
+}

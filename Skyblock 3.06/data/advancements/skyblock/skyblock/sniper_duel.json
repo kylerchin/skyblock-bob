@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:arrow"
+		},
+		"title": {
+			"translate": "advancements.skyblock.sniper_duel.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.sniper_duel.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:skyblock/shoot_arrow",
+	"criteria": {
+		"killed_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"is_projectile": true
+				},
+				"entity": {
+					"type": "skeleton",
+					"distance": {
+						"horizontal": {
+							"min": 50
+						}
+					}
+				}
+			}
+		}
+	}
+}

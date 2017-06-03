@@ -1,0 +1,10 @@
+[15:14:24] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[15:14:24] [Server thread/INFO]: Loading properties
+[15:14:24] [Server thread/INFO]: Default game type: SURVIVAL
+[15:14:24] [Server thread/INFO]: Generating keypair
+[15:14:25] [Server thread/INFO]: Starting Minecraft server on *:25566
+[15:14:25] [Server thread/INFO]: Using epoll channel type
+[15:14:25] [Server thread/INFO]: Preparing level "world"
+[15:14:26] [Server thread/INFO]: Preparing start region for level 0
+[15:14:27] [Server thread/INFO]: Preparing spawn area: 59%
+[15:14:27] [Server thread/INFO]: Done (1.500s)! For help, type "help" or "?"

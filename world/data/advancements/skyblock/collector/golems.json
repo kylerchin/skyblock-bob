@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin"
+        },
+        "title": {
+            "translate": "advancements.skyblock.collector.golems.title"
+        },
+        "description": {
+            "translate": "advancements.skyblock.collector.golems.description"
+        }
+    },
+    "parent": "skyblock:collector/iron",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager_golem"
+                }
+            }
+        },
+	"snow": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snowman"
+                }
+            }
+        }
+    }
+}

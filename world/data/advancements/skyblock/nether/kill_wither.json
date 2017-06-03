@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"title": {
+			"translate": "advancements.skyblock.nether.kill_wither.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.nether.kill_wither.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:nether/wither_skull",
+	"criteria": {
+		"wither": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "wither"
+				}
+			}
+		}
+	}
+}

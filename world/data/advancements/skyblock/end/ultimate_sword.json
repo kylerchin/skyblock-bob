@@ -1,0 +1,96 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.end.ultimate_sword.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.end.ultimate_sword.description"
+		},
+		"frame": "challenge"
+	},
+	"parent": "skyblock:end/enchant_item",
+	"criteria": {
+		"sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:diamond_sword",
+						"enchantments": [
+							{
+								"enchantment": "sharpness",
+								"levels": 5
+							},
+							{
+								"enchantment": "looting",
+								"levels": 3
+							},
+							{
+								"enchantment": "unbreaking",
+								"levels": 3
+							},
+							{
+								"enchantment": "fire_aspect",
+								"levels": 2
+							},
+							{
+								"enchantment": "knockback",
+								"levels": 2
+							},
+							{
+								"enchantment": "mending"
+							}
+						]
+					}
+				]
+			}
+		},
+		"axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:diamond_axe",
+						"enchantments": [
+							{
+								"enchantment": "sharpness",
+								"levels": 5
+							},
+							{
+								"enchantment": "looting",
+								"levels": 3
+							},
+							{
+								"enchantment": "unbreaking",
+								"levels": 3
+							},
+							{
+								"enchantment": "fire_aspect",
+								"levels": 2
+							},
+							{
+								"enchantment": "knockback",
+								"levels": 2
+							},
+							{
+								"enchantment": "mending"
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sword"
+		],
+		[
+			"axe"
+		]
+	]
+}

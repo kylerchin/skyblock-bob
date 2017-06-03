@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {
+            "translate": "advancements.skyblock.end.enchant_item.title"
+        },
+        "description": {
+            "translate": "advancements.skyblock.end.enchant_item.description"
+        }
+    },
+    "parent": "skyblock:end/diamond",
+    "criteria": {
+        "enchanted_item": {
+            "trigger": "minecraft:enchanted_item"
+        }
+    }
+}

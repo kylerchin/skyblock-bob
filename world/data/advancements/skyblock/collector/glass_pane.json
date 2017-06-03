@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glass_pane",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.collector.glass_pane.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.collector.glass_pane.description"
+		}
+	},
+	"parent": "skyblock:collector/sand",
+	"criteria": {
+		"glass_pane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:glass_pane",
+						"count": 16
+					}
+				]
+			}
+		}
+	}
+}

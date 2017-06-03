@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_ingot",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.collector.iron.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.collector.iron.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:collector/root",
+	"criteria": {
+		"iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:iron_ingot",
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

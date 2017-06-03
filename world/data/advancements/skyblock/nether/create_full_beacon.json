@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beacon"
+		},
+		"title": {
+			"translate": "advancements.skyblock.nether.create_full_beacon.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.nether.create_full_beacon.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:nether/create_beacon",
+	"criteria": {
+		"beacon": {
+			"trigger": "minecraft:construct_beacon",
+			"conditions": {
+				"level": 4
+			}
+		}
+	}
+}

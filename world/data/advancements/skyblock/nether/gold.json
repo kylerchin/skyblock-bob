@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:gold_nugget",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.nether.gold.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.nether.gold.description"
+		}
+	},
+	"parent": "skyblock:nether/root",
+	"criteria": {
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:gold_nugget"
+					}
+				]
+			}
+		}
+	}
+}

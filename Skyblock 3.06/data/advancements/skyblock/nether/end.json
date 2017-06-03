@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_stone"
+		},
+		"title": {
+			"translate": "advancements.skyblock.nether.end.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.nether.end.description"
+		}
+	},
+	"parent": "skyblock:nether/root",
+	"criteria": {
+		"entered_end": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "the_end"
+			}
+		}
+	}
+}

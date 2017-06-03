@@ -1,0 +1,84 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sapling",
+			"data": 3
+		},
+		"title": {
+			"translate": "advancements.skyblock.all_saplings.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.all_saplings.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:skyblock/sapling",
+	"criteria": {
+		"sapling0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:sapling",
+						"data": 0
+					}
+				]
+			}
+		},
+		"sapling1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:sapling",
+						"data": 1
+					}
+				]
+			}
+		},
+		"sapling2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:sapling",
+						"data": 2
+					}
+				]
+			}
+		},
+		"sapling3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:sapling",
+						"data": 3
+					}
+				]
+			}
+		},
+		"sapling4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:sapling",
+						"data": 4
+					}
+				]
+			}
+		},
+		"sapling5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:sapling",
+						"data": 5
+					}
+				]
+			}
+		}
+	}
+}

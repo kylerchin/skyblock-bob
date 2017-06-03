@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.end.diamond.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.end.diamond.description"
+		}
+	},
+	"parent": "skyblock:end/find_end_city",
+	"criteria": {
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:diamond"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,193 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dye",
+			"data": 1
+		},
+		"title": {
+			"translate": "advancements.skyblock.collector.dye.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.collector.dye.description"
+		}
+	},
+	"parent": "skyblock:collector/root",
+	"criteria": {
+		"dye0": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 0
+					}
+				]
+			}
+		},
+		"dye1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 1
+					}
+				]
+			}
+		},
+		"dye2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 2
+					}
+				]
+			}
+		},
+		"dye3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 3
+					}
+				]
+			}
+		},
+		"dye4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 4
+					}
+				]
+			}
+		},
+		"dye5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 5
+					}
+				]
+			}
+		},
+		"dye6": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 6
+					}
+				]
+			}
+		},
+		"dye7": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 7
+					}
+				]
+			}
+		},
+		"dye8": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 8
+					}
+				]
+			}
+		},
+		"dye9": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 9
+					}
+				]
+			}
+		},
+		"dye10": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 10
+					}
+				]
+			}
+		},
+		"dye11": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 11
+					}
+				]
+			}
+		},
+		"dye12": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 12
+					}
+				]
+			}
+		},
+		"dye13": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 13
+					}
+				]
+			}
+		},
+		"dye14": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 14
+					}
+				]
+			}
+		},
+		"dye15": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dye",
+						"data": 15
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:quartz",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.nether.quartz.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.nether.quartz.description"
+		}
+	},
+	"parent": "skyblock:nether/blaze_rod",
+	"criteria": {
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:quartz"
+					}
+				]
+			}
+		}
+	}
+}

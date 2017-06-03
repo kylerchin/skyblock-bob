@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "translate": "advancements.skyblock.end.elytra.title"
+        },
+        "description": {
+            "translate": "advancements.skyblock.end.elytra.description"
+        },
+        "frame": "goal"
+    },
+    "parent": "skyblock:end/find_end_city",
+    "criteria": {
+        "elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:elytra"
+                    }
+                ]
+            }
+        }
+    }
+}

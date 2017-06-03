@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:painting",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.collector.interior.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.collector.interior.description"
+		}
+	},
+	"parent": "skyblock:collector/stonebrick",
+	"criteria": {
+		"torch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:torch",
+						"count": 16
+					}
+				]
+			}
+		},
+		"bookshelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:bookshelf",
+						"count": 16
+					}
+				]
+			}
+		},
+		"painting": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:painting"
+					}
+				]
+			}
+		}
+	}
+}

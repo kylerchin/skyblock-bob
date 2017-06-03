@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.animal.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.animal.description"
+		},
+		"frame": "goal"
+	},
+	"parent": "skyblock:skyblock/seed",
+	"criteria": {
+		"breed": {
+			"trigger": "minecraft:bred_animals"
+		}
+	}
+}

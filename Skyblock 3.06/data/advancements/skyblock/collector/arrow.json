@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:arrow",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.collector.arrow.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.collector.arrow.description"
+		}
+	},
+	"parent": "skyblock:collector/root",
+	"criteria": {
+		"arrow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:arrow",
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

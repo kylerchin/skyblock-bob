@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald",
+			"data": 0
+		},
+		"title": {
+			"translate": "advancements.skyblock.collector.root.title"
+		},
+		"description": {
+			"translate": "advancements.skyblock.collector.root.description"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:dirt"
+					}
+				]
+			}
+		},
+		"log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions" : {
+				"items": [
+					{
+						"item": "minecraft:log"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"dirt"
+		],
+		[
+			"log"
+		]
+	]
+}
